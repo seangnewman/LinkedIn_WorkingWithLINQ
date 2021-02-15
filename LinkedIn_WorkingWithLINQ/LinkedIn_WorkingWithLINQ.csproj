@@ -52,9 +52,11 @@
     <None Include="LinqPad\collection initializers.linq" />
     <None Include="LinqPad\Combine extension methods and query expresssions continues.linq" />
     <None Include="LinqPad\Combine extension methods and query expresssions.linq" />
+    <None Include="LinqPad\Default methods.linq" />
     <None Include="LinqPad\deferred execution continued.linq" />
     <None Include="LinqPad\deferred execution extensions.linq" />
     <None Include="LinqPad\deferred execution.linq" />
+    <None Include="LinqPad\Empty methods.linq" />
     <None Include="LinqPad\Enumerable class.linq" />
     <None Include="LinqPad\Enumerable extension methods.linq" />
     <None Include="LinqPad\Enumerable static methods.linq" />
@@ -67,6 +69,8 @@
     <None Include="LinqPad\lambda expressions.linq" />
     <None Include="LinqPad\Object Initializers.linq" />
     <None Include="LinqPad\program example.linq" />
+    <None Include="LinqPad\Range method.linq" />
+    <None Include="LinqPad\Repeath methods.linq" />
     <None Include="LinqPad\statement - run subsection.linq" />
     <None Include="LinqPad\statements dump continued.linq" />
     <None Include="LinqPad\statements dump.linq" />

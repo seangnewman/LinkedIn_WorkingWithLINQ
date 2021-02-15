@@ -2,21 +2,16 @@
 
 var colors = new List<string> {"Blue", "Crimson", "Brown", "Caramel", "Copper", "Orange"};
 
-var searchLetter = "B";
-//potential querey
-var q = from c in colors
-         where c.StartsWith(searchLetter)
-		 select c;
-		 
-// Change the search letter
-searchLetter = "C";
+var q = colors.Where( c => c.StartsWith("C"));
 
-// run the query, what do you see?
-// at time of execution,  searchLetter = "C"
-q.Dump("what do you see?");
+// run the query
+q.Dump("First run");
 
-// add a color to the list
 colors.Add("Coral");
 
-// run the query again, what do you see
-q.Dump("second run");
+q.Dump("Second run");
+
+// modify the query
+var q2 = q.OrderBy( c => c);
+q2.Dump("Third run");
+
