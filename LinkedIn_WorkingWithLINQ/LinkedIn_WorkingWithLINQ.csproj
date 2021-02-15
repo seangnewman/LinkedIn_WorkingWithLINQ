@@ -50,6 +50,14 @@
     <None Include="App.config" />
     <None Include="LinqPad\anonymous types.linq" />
     <None Include="LinqPad\collection initializers.linq" />
+    <None Include="LinqPad\Combine extension methods and query expresssions continues.linq" />
+    <None Include="LinqPad\Combine extension methods and query expresssions.linq" />
+    <None Include="LinqPad\deferred execution continued.linq" />
+    <None Include="LinqPad\deferred execution extensions.linq" />
+    <None Include="LinqPad\deferred execution.linq" />
+    <None Include="LinqPad\Enumerable class.linq" />
+    <None Include="LinqPad\Enumerable extension methods.linq" />
+    <None Include="LinqPad\Enumerable static methods.linq" />
     <None Include="LinqPad\evailations.linq" />
     <None Include="LinqPad\expressions.linq" />
     <None Include="LinqPad\extensions.linq" />
