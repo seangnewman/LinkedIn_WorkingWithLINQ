@@ -49,6 +49,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="LinqPad\anonymous types.linq" />
+    <None Include="LinqPad\Challenge - Write Select Expression.linq" />
     <None Include="LinqPad\collection initializers.linq" />
     <None Include="LinqPad\Combine extension methods and query expresssions continues.linq" />
     <None Include="LinqPad\Combine extension methods and query expresssions.linq" />
@@ -61,21 +62,29 @@
     <None Include="LinqPad\Enumerable extension methods.linq" />
     <None Include="LinqPad\Enumerable static methods.linq" />
     <None Include="LinqPad\evailations.linq" />
+    <None Include="LinqPad\Examples of three query expressions.linq" />
     <None Include="LinqPad\expressions.linq" />
     <None Include="LinqPad\extensions.linq" />
     <None Include="LinqPad\functions.linq" />
     <None Include="LinqPad\generics.linq" />
     <None Include="LinqPad\Implicit typing.linq" />
+    <None Include="LinqPad\Index into another sequence.linq" />
     <None Include="LinqPad\lambda expressions.linq" />
     <None Include="LinqPad\Object Initializers.linq" />
     <None Include="LinqPad\program example.linq" />
     <None Include="LinqPad\Range method.linq" />
     <None Include="LinqPad\Repeath methods.linq" />
+    <None Include="LinqPad\Review of Query Expression clauses.linq" />
+    <None Include="LinqPad\select clause.linq" />
+    <None Include="LinqPad\Select into Anonymous type.linq" />
+    <None Include="LinqPad\SimpleColor.linq" />
     <None Include="LinqPad\statement - run subsection.linq" />
     <None Include="LinqPad\statements dump continued.linq" />
     <None Include="LinqPad\statements dump.linq" />
     <None Include="LinqPad\statements output.linq" />
     <None Include="LinqPad\statements.linq" />
+    <None Include="LinqPad\Use select to project into another type.linq" />
+    <None Include="LinqPad\Using Expressions with Select.linq" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
