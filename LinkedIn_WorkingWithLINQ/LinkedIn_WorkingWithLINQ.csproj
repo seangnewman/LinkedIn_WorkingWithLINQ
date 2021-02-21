@@ -50,6 +50,7 @@
     <None Include="App.config" />
     <None Include="LinqPad\anonymous types.linq" />
     <None Include="LinqPad\Challenge - Write Select Expression.linq" />
+    <None Include="LinqPad\Challenge - Write Where Expression.linq" />
     <None Include="LinqPad\collection initializers.linq" />
     <None Include="LinqPad\Combine extension methods and query expresssions continues.linq" />
     <None Include="LinqPad\Combine extension methods and query expresssions.linq" />
@@ -71,6 +72,7 @@
     <None Include="LinqPad\Index into another sequence.linq" />
     <None Include="LinqPad\lambda expressions.linq" />
     <None Include="LinqPad\Object Initializers.linq" />
+    <None Include="LinqPad\OfType method.linq" />
     <None Include="LinqPad\program example.linq" />
     <None Include="LinqPad\Range method.linq" />
     <None Include="LinqPad\Repeath methods.linq" />
@@ -85,6 +87,9 @@
     <None Include="LinqPad\statements.linq" />
     <None Include="LinqPad\Use select to project into another type.linq" />
     <None Include="LinqPad\Using Expressions with Select.linq" />
+    <None Include="LinqPad\Where method 2.linq" />
+    <None Include="LinqPad\Where method Logical.linq" />
+    <None Include="LinqPad\Where method.linq" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedIn_WorkingWithLINQ", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseLib", "CourseLib\CourseLib.csproj", "{9089DFAA-B92E-4867-9E5B-7C43435A1227}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseWebColors", "UseWebColors\UseWebColors.csproj", "{6EEDDDD7-DB13-4C42-8761-022203A7BD95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9089DFAA-B92E-4867-9E5B-7C43435A1227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9089DFAA-B92E-4867-9E5B-7C43435A1227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9089DFAA-B92E-4867-9E5B-7C43435A1227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EEDDDD7-DB13-4C42-8761-022203A7BD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EEDDDD7-DB13-4C42-8761-022203A7BD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EEDDDD7-DB13-4C42-8761-022203A7BD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EEDDDD7-DB13-4C42-8761-022203A7BD95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,14 +2,20 @@
   <Reference Relative="..\..\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll">C:\Users\Sean\Source\Repos\LinkedIn_WorkingWithLINQ\CourseLib\bin\Debug\netstandard2.0\CourseLib.dll</Reference>
 </Query>
 
-// Use select to return a sequence of a different type
+// Where any valid boolean expression is acceptable
+
+// Use &&, &, ||, |, !, ^
 
 var q1 = from color in CourseLib.ColorSource.GetColors()
-   			select color.BlueValue;
+			where color.ColorFamily == CourseLib.ColorFamily.Orange
+				&& color.ColorName.Contains("O")
+			select color;
 			
-//q1.Dump("IEnumerable<int>");
+//q1.Dump("&&");
 
 var q2 = from color in CourseLib.ColorSource.GetColors()
-			select color.ColorName;
-			
-q2.Dump("IEnumerable<string>");
+			where color.ColorFamily == CourseLib.ColorFamily.Orange
+				|| color.ColorName.Contains("Blue")
+			select color;
+
+q2.Dump("||");
