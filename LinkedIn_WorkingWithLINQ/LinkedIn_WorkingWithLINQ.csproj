@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Custom Numeric Aggregator.linq" />
+    <None Include="Custom String Aggregator.linq" />
     <None Include="LinqPad\anonymous types.linq" />
     <None Include="LinqPad\Challenge - Write Select Expression.linq" />
     <None Include="LinqPad\Challenge - Write Where Expression.linq" />
@@ -90,6 +92,7 @@
     <None Include="LinqPad\Where method 2.linq" />
     <None Include="LinqPad\Where method Logical.linq" />
     <None Include="LinqPad\Where method.linq" />
+    <None Include="Sum Average and Other Aggregates.linq" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
