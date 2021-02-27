@@ -7,7 +7,7 @@ namespace CourseLib
 {
 public 	class CardSource
 	{
-		private static List<Card> _cards;
+		private static readonly List<Card> _cards;
 		 static CardSource()
 		{
 			_cards = new List<Card>();

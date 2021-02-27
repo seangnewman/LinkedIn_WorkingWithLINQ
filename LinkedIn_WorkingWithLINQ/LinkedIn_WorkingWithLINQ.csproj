@@ -50,13 +50,17 @@
     <None Include="App.config" />
     <None Include="Custom Numeric Aggregator.linq" />
     <None Include="Custom String Aggregator.linq" />
+    <None Include="LinqPad\All.linq" />
     <None Include="LinqPad\anonymous types.linq" />
+    <None Include="LinqPad\Any method.linq" />
     <None Include="LinqPad\Challenge - Write Select Expression.linq" />
     <None Include="LinqPad\Challenge - Write Where Expression.linq" />
     <None Include="LinqPad\collection initializers.linq" />
     <None Include="LinqPad\Combine extension methods and query expresssions continues.linq" />
     <None Include="LinqPad\Combine extension methods and query expresssions.linq" />
     <None Include="LinqPad\Combining Sequuence %28similar to outer join%29.linq" />
+    <None Include="LinqPad\Contains.linq" />
+    <None Include="LinqPad\Count vs Any.linq" />
     <None Include="LinqPad\Custom Numeric Aggregator.linq" />
     <None Include="LinqPad\Custom String Aggregator.linq" />
     <None Include="LinqPad\Default methods.linq" />
